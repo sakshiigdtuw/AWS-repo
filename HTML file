@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="faq.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <title>Faq section</title>
+</head>
+<body>
+    <section>
+        <div class="header">
+              <h2>FAQs</h2>
+        </div>
+        <div class="container">
+            <div class="question">
+                <h3>How can i become a member of the  society ?</h3>
+                <span class="material-symbols-outlined">
+                    expand_more
+                    </span>
+            </div>
+            <div class="answer">
+                <p>Opportunity to become a member is open to all who can withstand our pre-requisite and future requirements. You can become a member by attending our meetings, events, workshops and expressing your interest in joining. Actively participate in our recruitment processes.</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="container">
+            <div class="question">
+                <h3>What type of activities does the soceity organize?</h3>
+                <span class="material-symbols-outlined">
+                    expand_more
+                    </span>
+            </div>
+            <div class="answer">
+                <p>Our soceity organize a variety of activities , including workshops, seminars,social gathering,volunteer opportunities,and special events focused on spreading the knowledge about AWS Cloud to each and every individual.</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="container">
+            <div class="question">
+                <h3>What are the benefits of being a member ?</h3>
+                <span class="material-symbols-outlined" >
+                    expand_more
+                    </span>
+            </div>
+            <div class="answer">
+                <p>As a member of our soceity , you can gain access to our resources explicitly,networking opportunities, and exclusive events. You also become part of a supportive community dedicated to personal and proffessional growth.You can learn various new soft skills alongwith getting expert in your chosen domain.</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="container">
+            <div class="question">
+                <h3>How can i stay informed about society events and updates ?</h3>
+                <span class="material-symbols-outlined">
+                    expand_more
+                    </span>
+            </div>
+            <div class="answer">
+                <p>We communicate regularly through college emails, social media channels like twitter , instagram, and our website.Members can also join our forums or discussion groups to stay connected and engaged.We also circulate events details in collgee community whatsapp group.</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="container">
+            <div class="question">
+                <h3>Can freshmen join AWS Cloud Club ?</h3>
+                <span class="material-symbols-outlined">
+                    expand_more
+                    </span>
+            </div>
+            <div class="answer">
+                <p>Absolutely! AWS Cloud Club welcomes students from all years and branches , including freshmen. We encourage new students to get involved and bring fresh perspectives to the society.</p>
+            </div>
+        </div>
+    </section>
+    <script >
+        console.log("hello hi")
+        const boxs =  document.querySelectorAll(".container");
+
+    boxs.forEach((container) => {
+    container.addEventListener("click",()=>{
+        container.classList.toggle("active")
+    })
+})
+    </script>
+</body>
+</html>
