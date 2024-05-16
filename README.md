@@ -1,1 +1,1 @@
-Frequently ask question in society
+Frequently asked questionsin society
